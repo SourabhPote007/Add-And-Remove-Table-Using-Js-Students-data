@@ -1,0 +1,43 @@
+*
+{
+      margin: 0 auto;
+      padding: 0 auto;
+      box-sizing: border-box;
+}
+
+body
+{
+      margin: 10px auto;
+      padding: auto;
+}
+
+h1
+{
+      font-family: sans-serif;
+      text-align: center;
+}
+
+form
+{
+      text-align: center;
+}
+form input[type="button"]
+{
+      background-color: darkgreen;
+      color: #fff;
+      border: none;
+      padding: 5px;
+      border-radius: 3px;
+      outline: none;
+      font-weight: 700;
+      font-family: 'Courier New';
+}
+form input[type="button"]:hover
+{
+      background-color: rgb(19, 128, 19);
+}
+
+th
+{
+      font-weight: 500;
+}

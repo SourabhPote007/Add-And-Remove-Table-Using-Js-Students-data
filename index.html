@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Dynamic Table Using js</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1>Student Data</h1>
+      <hr>
+<form action="" method="POST" name="sample">
+      <br>
+      Full Name - <input type="text" name="name" style="margin-left: 13px;" id="value">
+      <br>
+      <br>
+      Roll No -  <input type="number" name="rollno" style="margin-left: 30px;" id="value">
+      <br>
+      <br>
+      Standard - <input type="text" name="standard" style="margin-left: 23px;" id="value">
+      <br>
+      <br>
+      Division - <input type="text" name="division" style="margin-left: 25px;" id="value" class="value">
+      <br>
+      <br>
+      <input type="button" name="Add" value="Add Data" onclick="addStudent()" style="margin-left: 94px;" >
+      <br>
+      <br>
+      <hr>
+      <br>
+      <table id="tb1" class="table" border="1" cellspacing="0" cellpadding="5">
+            <thead>
+                  <th>Roll No</th>
+                  <th>Full Name</th>
+                  <th>Standard</th>
+                  <th>Division</th>
+
+                  <th>Delete</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+      </table>
+</form>
+      <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
